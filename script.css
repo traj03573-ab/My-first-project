@@ -1,0 +1,9 @@
+/* JavaScript belongs in a .js file, not a CSS file.
+console.log("My Portfolio Website is running!");
+
+const heading = document.querySelector(".home h1");
+
+heading.addEventListener("click", function () {
+    alert("Welcome to my Portfolio Website!");
+});
+*/

@@ -1,0 +1,179 @@
+/* Basic Settings */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f7fc;
+    color: #263238;
+    line-height: 1.6;
+}
+
+/* Navigation Bar */
+header {
+    background-color: #1e3a5f;
+    color: white;
+    padding: 20px 8%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.logo {
+    color: #ffffff;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin-left: 15px;
+    font-size: 15px;
+}
+
+nav a:hover {
+    color: #7dd3fc;
+}
+
+/* Home Section */
+.home {
+    min-height: 75vh;
+    padding: 60px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #e0f2fe;
+}
+
+.home h1 {
+    font-size: 48px;
+    color: #1e3a5f;
+    margin: 10px 0;
+}
+
+.home h3 {
+    margin-bottom: 12px;
+}
+
+.btn {
+    display: inline-block;
+    background-color: #1e3a5f;
+    color: white;
+    padding: 10px 22px;
+    margin-top: 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.btn:hover {
+    background-color: #2563a6;
+}
+
+/* General Sections */
+.section {
+    padding: 60px 8%;
+    text-align: center;
+}
+
+.section h2 {
+    color: #1e3a5f;
+    margin-bottom: 20px;
+    font-size: 30px;
+}
+
+.section p {
+    max-width: 700px;
+    margin: 0 auto 12px;
+}
+
+/* Skills */
+.skills-list {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.card {
+    background-color: white;
+    padding: 20px 35px;
+    border-radius: 8px;
+    border: 1px solid #d5e2f0;
+    box-shadow: 0 3px 8px #00000010;
+}
+
+/* Projects */
+.project-card {
+    max-width: 600px;
+    margin: 15px auto;
+    padding: 25px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 3px 10px #00000010;
+}
+
+.project-card h3 {
+    color: #2563a6;
+    margin-bottom: 10px;
+}
+
+/* Footer */
+footer {
+    background-color: #1e3a5f;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Mobile Screen */
+@media (max-width: 600px) {
+    header {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav a {
+        margin: 5px;
+        display: inline-block;
+    }
+
+    .home h1 {
+        font-size: 36px;
+    }
+}
+
+    .profile-photo {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: center;
+    display: block;
+    margin: 0 auto 20px;
+    border: 4px solid #1e3a5f;
+}
+.profile-container {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.profile-photo {
+    width: 180px;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 50%;
+    display: block;
+    margin: 20px auto;
+}

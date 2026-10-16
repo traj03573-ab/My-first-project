@@ -1,10 +1,98 @@
+
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>My First Website</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Personal Portfolio</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Hello, I'm Tannu!</h1>
-    <p>I am a BCA student learning web development.</p>
+
+    <!-- Navigation Bar -->
+    <header>
+        <h2 class="logo">My Portfolio</h2>
+
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <!-- Home Section -->
+    <section id="home" class="home">
+       <div class="profile-container">
+        <img src="images/tannu.jpeg.jpeg"
+         alt="Tannu's Photo"
+          class="profile-photo">
+        </div>
+        <p>Hello, I am </p>
+        <h1>Tannu Raj</h1>
+        <h3>College Student & Future Web Developer</h3>
+        <p>Welcome to my personal portfolio website.</p>
+
+
+        <a href="#about" class="btn">About Me</a>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section">
+        <h2>About Me</h2>
+        <p>
+            Hello! I am a college student who is interested
+            in learning programming and web development.
+            I enjoy learning new skills and creating projects.
+        </p>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section">
+        <h2>My Skills</h2>
+
+        <div class="skills-list">
+            <div class="card">HTML</div>
+            <div class="card">CSS</div>
+            <div class="card">JavaScript</div>
+            <div class="card">Communication</div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section">
+        <h2>My Projects</h2>
+
+        <div class="project-card">
+            <h3>Personal Portfolio Website</h3>
+            <p>
+                A simple website created using HTML and CSS
+                to introduce myself and display my skills.
+            </p>
+        </div>
+
+        <div class="project-card">
+            <h3>My College Project</h3>
+            <p>
+                This section will contain details about
+                another project I create during my studies.
+            </p>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+        <h2>Contact Me</h2>
+        <p>Email: traj03573@gmail.com</p>
+        <p>Thank you for visiting my portfolio!</p>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p> My Personal Portfolio</p>
+    </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
